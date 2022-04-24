@@ -1,0 +1,504 @@
+//    xs: 280,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1200px,
+//   xxl: 1400px,
+
+//xtra-small 280
+@media only screen and (min-width: $xs) {
+  body {
+    padding-top: 75px;
+  }
+  //navigation
+  .navigation {
+    .brand {
+      font-size: 15px;
+    }
+  }
+  //Banner
+  .main {
+    background-position: top;
+    background-size: 178px;
+    &__textbox {
+      margin-top: 150px;
+      .featured {
+        font-size: 30px;
+      }
+      .book {
+        font-size: 30px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 25px;
+      }
+    }
+  }
+  //HomeAuthor
+  .homeauth {
+    img.homeauth__authorimg {
+      height: 117px;
+    }
+    h1.authorName {
+      margin-top: 15px;
+    }
+    p.authordesc {
+      font-size: 13px;
+      line-height: 19px;
+    }
+  }
+  //About the book
+  .Authorbook__Samplebook {
+    margin-top: -5px;
+  }
+  .Authorbook .samplebook {
+    width: 252px;
+    height: 157px;
+  }
+
+  h1.Aboutbookheader {
+    font-size: 15px;
+  }
+  .Authorbook .Aboutbook {
+    font-size: 15px;
+    line-height: 19px;
+  }
+  .store.container-fluid h2.headings {
+    margin: 3px;
+    font-size: 13px;
+  }
+  .store.container-fluid img.logos {
+    height: 19px;
+    margin: 10px;
+  }
+
+  //Contact
+  .contactus.container-fluid.bg-light .form.container-fluid {
+    margin-top: 45px;
+  }
+  .contactus.container-fluid.bg-light {
+    height: 210vh;
+  }
+
+  //featured
+  .featureds {
+    &__companylogo {
+      display: flex;
+      justify-content: center;
+      margin-top: 36px;
+      .amazonlogo {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+      }
+      .logo {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+      }
+      .imagelogo {
+        height: 60px;
+      }
+      .stratt {
+        height: 90px;
+      }
+    }
+  }
+  //footer
+  .footer {
+    &__description {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      .nancy {
+        font-size: 15px;
+      }
+    }
+
+    &__navfooter {
+      padding: 0;
+      align-items: center;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    &__connected {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+    &__companylogo {
+      display: flex;
+      justify-content: center;
+      .companyname {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+    &__policies {
+      font-size: 12px;
+      padding-left: 15px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: center;
+    }
+    &__icons {
+      font-size: 13px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+// Small 576
+@media only screen and (min-width: $sm) {
+  //navigation
+  .navigation {
+    .brand {
+      font-size: 15px;
+    }
+  }
+  //main
+  .main {
+    background-position: top;
+    background-size: 260px;
+    &__textbox {
+      margin-top: 170px;
+      .featured {
+        font-size: 40px;
+      }
+      .book {
+        font-size: 40px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  //HomeAuthor
+  .homeauth {
+    img.homeauth__authorimg {
+      height: 170px;
+    }
+  }
+
+  //About the book
+  .Authorbook__Bookdesc.col-md-12 {
+    display: flex;
+    justify-content: center;
+  }
+  h1.Aboutbookheader {
+    font-size: 20px;
+  }
+  .Authorbook .Aboutbook {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .store.container-fluid img.logos {
+    height: 23px;
+  }
+  //footer
+  .footer {
+    &__description {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      .nancy {
+        font-size: 20px;
+      }
+    }
+
+    &__navfooter {
+      padding: 0;
+      align-items: center;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    &__connected {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+
+    &__companylogo {
+      display: flex;
+      justify-content: center;
+      .companyname {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+    &__policies {
+      font-size: 15px;
+      padding-left: 15px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: center;
+    }
+    &__icons {
+      font-size: 15px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+//MD 768
+@media only screen and (min-width: $md) {
+  //navigation
+  .navigation {
+    .brand {
+      font-size: 15px;
+    }
+  }
+  //main
+  .main {
+    background-position: right;
+    background-size: 380px;
+    &__textbox {
+      margin-top: 137px;
+    }
+  }
+
+  //homeauth
+  .homeauth {
+    &__colauthor {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    img.homeauth__authorimg {
+      height: 205px;
+    }
+  }
+
+  //About the book
+
+  .Authorbook .samplebook {
+    height: 306px;
+    width: 500px;
+  }
+  h1.Aboutbookheader {
+    font-size: 25px;
+  }
+  .Authorbook .Aboutbook {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .homeauth p.authordesc {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  //Contact
+  .contactus.container-fluid.bg-light {
+    height: 105vh;
+  }
+
+  //footer
+  .footer {
+    &__description {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      .nancy {
+        font-size: 20px;
+      }
+    }
+
+    &__navfooter {
+      padding: 0;
+      align-items: center;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    &__connected {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+  }
+}
+
+//LG 992
+@media only screen and (min-width: $lg) {
+  //navigation
+  .navigation {
+    .brand {
+      font-size: 20px;
+    }
+  }
+  //main
+  .main {
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 590px;
+
+    &__textbox {
+      margin-top: 80px;
+      max-width: 450px;
+      .featured {
+        font-size: 60px;
+      }
+      .book {
+        font-size: 60px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 1.4em;
+      }
+    }
+  }
+  //homeauth
+  .homeauth {
+    img.homeauth__authorimg {
+      height: 270px;
+    }
+  }
+  .homeauth p.authordesc {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  //About the book
+  .Authorbook .samplebook {
+    height: 358px;
+    width: 608px;
+  }
+  h1.Aboutbookheader {
+    font-size: 25px;
+  }
+  .Authorbook .Aboutbook {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .store.container-fluid h2.headings {
+    margin: 6px;
+    font-size: 25px;
+  }
+  .store.container-fluid img.logos {
+    height: 22px;
+  }
+  //footer
+  .footer {
+    &__description {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      .nancy {
+        font-size: 20px;
+      }
+    }
+
+    &__navfooter {
+      align-items: flex-start;
+      padding-left: 90px;
+    }
+
+    &__connected {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    &__companylogo {
+      .companyname {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+//xl 1200
+@media only screen and (min-width: $xl) {
+  //navigation
+  .navigation {
+    .brand {
+      font-size: 20px;
+    }
+  }
+  //banner
+  .main {
+    height: 90vh;
+    background: url("../../../static/bg-18.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 900px;
+    //   background-attachment: ;
+
+    &__textbox {
+      margin-top: 80px;
+      max-width: 450px;
+      .featured {
+        font-size: 90px;
+        line-height: 1em;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      .book {
+        font-size: 90px;
+        line-height: 1em;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 20px;
+        line-height: 1.4em;
+      }
+    }
+  }
+  //featured
+  .featureds {
+    &__companylogo {
+      .imagelogo {
+        height: 85px;
+      }
+      .stratt {
+        height: 98px;
+      }
+    }
+  }
+
+  //About the book
+
+  h1.Aboutbookheader {
+    font-size: 2.5rem;
+  }
+  .Authorbook .Aboutbook {
+    font-size: 23px;
+    line-height: 40px;
+  }
+  .store.container-fluid h2.headings {
+    margin: 10px;
+    font-size: 25px;
+  }
+  .store.container-fluid img.logos {
+    height: 29px;
+  }
+  //Homeauth
+  .homeauth p.authordesc {
+    font-size: 17px;
+    line-height: 30px;
+  }
+  //footer
+  .footer {
+    &__companylogo {
+      display: flex;
+      justify-content: start;
+    }
+    &__policies {
+      justify-content: start;
+    }
+  }
+}

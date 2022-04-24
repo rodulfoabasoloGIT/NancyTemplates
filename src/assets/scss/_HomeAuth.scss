@@ -1,0 +1,32 @@
+.homeauth {
+  height: 110vh;
+  background: url("../../../static/wave\ \(1\).svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  color: #b2b2b2;
+
+  background-color: #323232;
+  &__authorimg {
+    border-radius: 10px;
+  }
+  &__coldesc {
+    max-width: 500px;
+  }
+  .authordesc {
+    font-weight: 400;
+  }
+}
+.brand {
+  color: white;
+}
+.companyname {
+  color: #b2b2b2;
+}
+h5,
+a,
+.stayup,
+svg.svg-inline--fa.fa-2x.fa-facebook {
+  color: #b2b2b2;
+}
