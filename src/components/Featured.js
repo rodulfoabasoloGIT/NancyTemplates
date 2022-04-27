@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { Container, Col, Row } from "react-bootstrap"
 import amazon from "../../static/amazon.png"
 import bam from "../../static/bam1.png"

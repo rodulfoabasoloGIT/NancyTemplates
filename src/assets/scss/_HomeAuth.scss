@@ -1,8 +1,9 @@
 .homeauth {
-  height: 110vh;
-  background: url("../../../static/wave\ \(1\).svg");
+  height: 115vh;
+  background: url("../../../static/wave\ \(1\).svg"),
+    url("../../../static/wavetop.svg");
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: bottom, top;
   display: flex;
   align-items: center;
   color: #b2b2b2;
@@ -12,7 +13,6 @@
     border-radius: 10px;
   }
   &__coldesc {
-    max-width: 500px;
   }
   .authordesc {
     font-weight: 400;
@@ -25,8 +25,6 @@
   color: #b2b2b2;
 }
 h5,
-a,
-.stayup,
-svg.svg-inline--fa.fa-2x.fa-facebook {
+.stayup {
   color: #b2b2b2;
 }

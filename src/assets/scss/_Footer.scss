@@ -1,6 +1,6 @@
 .footer {
   background-color: #323232;
-
+  padding-top: 20px;
   &__description {
     .nancy {
       color: #b2b2b2;
@@ -29,7 +29,7 @@
   }
 
   &__bottom {
-    border-top: 1px solid black;
+    border-top: 1px solid #fff;
   }
   &__companylogo {
     .companyname {
@@ -43,12 +43,16 @@
     a {
       padding-left: 15px;
       text-decoration: none;
+      color: #b2b2b2;
     }
   }
   &__icons {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: end;
+    .fa-facebook {
+      color: #b2b2b2;
+    }
   }
 }
 .nancy {

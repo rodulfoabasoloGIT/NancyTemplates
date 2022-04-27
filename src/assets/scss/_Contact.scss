@@ -30,4 +30,15 @@
     text-align: center;
     margin: 20px;
   }
+  textarea#exampleForm\.ControlTextarea1 {
+    resize: none;
+  }
+  .faphone:hover {
+    color: limegreen;
+    cursor: pointer;
+  }
+  .faat:hover {
+    color: red;
+    cursor: pointer;
+  }
 }

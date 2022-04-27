@@ -71,19 +71,23 @@ const Contact = () => {
                   <Form.Control as="textarea" rows={3} />
                 </Form.Group>
 
-                <Button type="submit">Submit form</Button>
+                <Button type="submit">Submit</Button>
               </Form>
             </div>
           </Col>
 
           <Col className="social container-fluid" xs={12} md={6} lg={6}>
             <div className="phone">
-              <FontAwesomeIcon icon={faPhone} size="2x" />
+              <a href="tel:8883237009">
+                <FontAwesomeIcon icon={faPhone} size="2x" className="faphone" />
+              </a>
               <h3 className="detail">Phone:</h3>
               <p className="detail">888-323-7009</p>
             </div>
             <div className="at">
-              <FontAwesomeIcon icon={faAt} size="2x" />
+              <a href="mailto:publish@stratton-press.com">
+                <FontAwesomeIcon icon={faAt} size="2x" className="faat" />
+              </a>
               <h3 className="detail">Email:</h3>
               <p className="detail">publish@stratton-press.com</p>
             </div>

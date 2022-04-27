@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import icon from "../../static/icon.png"
 import {
   Container,
@@ -10,7 +11,6 @@ import {
   FormControl,
   Button,
   Nav,
-  Offcanvas,
 } from "react-bootstrap"
 import companylogo from "../../static/companylogo.png"
 import {
@@ -38,22 +38,22 @@ const Footer = () => {
             </p>
           </Col>
           <Col className="footer__navfooter" lg={4} xs={12} md={4}>
-            <h5>SITE</h5>
+            <h5>Navigation</h5>
             <span>
-              <a href="#">Home</a>
+              <a href="#home">Home</a>
             </span>
             <span>
-              <a href="#">About the author</a>
+              <a href="#author">About the author</a>
             </span>
             <span>
-              <a href="#">About the book</a>
+              <a href="#book">About the book</a>
             </span>
             <span>
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </span>
           </Col>
           <Col className="footer__connected" lg={4} xs={12} md={4}>
-            <h5>STAY CONNECTED</h5>
+            <h5 className="text-start">STAY CONNECTED</h5>
             <p className="stayup">Stay up to date with the latest from me</p>
             <Form>
               <InputGroup className="mb-3 mt-3">
@@ -81,7 +81,7 @@ const Footer = () => {
             </Navbar.Brand>
           </Col>
           <Col className="footer__policies" lg={4} xs={12}>
-            <a href="#">Terms and Conditions</a>
+            <Link to="/TAC">Terms and Conditions</Link>
             <a href="#">Privacy Policy</a>
           </Col>
           <Col className="footer__icons" lg={4} xs={12}>
