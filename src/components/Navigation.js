@@ -3,16 +3,7 @@ import { useState } from "react"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import icon from "../../static/icon.png"
-import {
-  Navbar,
-  Nav,
-  Container,
-  Offcanvas,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-} from "react-bootstrap"
+import { Navbar, Nav, Container, Offcanvas } from "react-bootstrap"
 import {
   faFacebook,
   faTwitter,
