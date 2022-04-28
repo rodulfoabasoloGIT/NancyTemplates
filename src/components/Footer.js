@@ -81,7 +81,9 @@ const Footer = () => {
             </Navbar.Brand>
           </Col>
           <Col className="footer__policies" lg={4} xs={12}>
-            <Link to="/TAC">Terms and Conditions</Link>
+            <Link to="/TAC" className="tac">
+              Terms and Conditions
+            </Link>
             <a href="#">Privacy Policy</a>
           </Col>
           <Col className="footer__icons" lg={4} xs={12}>

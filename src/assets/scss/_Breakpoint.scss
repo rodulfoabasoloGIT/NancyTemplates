@@ -27,11 +27,13 @@
     background-size: 280px;
     &__textbox {
       text-align: center;
+      width: unset;
+      padding-top: 20px;
       .featured {
-        font-size: 30px;
+        font-size: 40px;
       }
       .book {
-        font-size: 30px;
+        font-size: 40px;
       }
       p {
         font-size: 15px;
@@ -42,7 +44,8 @@
   //HomeAuthor
   .homeauth {
     text-align: center;
-    padding-top: 35px;
+    padding-top: 80px;
+    padding-bottom: 25px;
     img.homeauth__authorimg {
       height: 117px;
     }
@@ -60,7 +63,7 @@
   //About the book
   .Authorbook {
     text-align: center;
-    padding-top: 200px;
+    padding-top: 90px;
   }
   .store.container-fluid {
     text-align: center;
@@ -95,9 +98,8 @@
     margin-top: -20px;
   }
   .contactus.container-fluid.bg-light {
-    height: 184vh;
+    // height: 184vh;
     padding-top: 100px;
-    margin-top: 124px;
   }
   .contactus.container-fluid.bg-light .social.container-fluid.col-lg-6.col-12 {
     margin-top: 70px;
@@ -188,16 +190,35 @@
       font-size: 13px;
       margin-top: 10px;
       margin-bottom: 10px;
+      justify-content: center;
     }
   }
   .footer__description .nancy {
     margin-top: 0;
   }
+  span.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+  }
 }
+// @media only screen and (min-height: 375px) and (max-height: 580px) {
+//   .homeauth {
+//     // height: 175vh;
+//   }
+//   .Authorbook {
+//     // height: 160vh;
+//   }
+//   .contactus.container-fluid.bg-light {
+//     // height: 266vh;
+//   }
+// }
 
 @media only screen and (min-width: 350px) and (max-width: 575px) {
   .homeauth {
-    height: 158vh;
+    // height: 158vh;
+    padding-bottom: 50px;
   }
   .homeauth img.homeauth__authorimg {
     height: 170px;
@@ -220,9 +241,9 @@
     font-size: 18px;
     line-height: 27px;
   }
-  .contactus.container-fluid.bg-light {
-    margin-top: 206px;
-  }
+  // .contactus.container-fluid.bg-light {
+  //   margin-top: 206px;
+  // }
 }
 
 // Small 576
@@ -254,6 +275,7 @@
   //HomeAuthor
   .homeauth {
     text-align: center;
+    padding-bottom: 60px;
     img.homeauth__authorimg {
       height: 190px;
     }
@@ -344,24 +366,24 @@
     }
   }
 }
-@media only screen and (min-height: 667px) {
-  .contactus.container-fluid.bg-light {
-    height: 160vh;
-  }
-}
-@media only screen and (min-height: 720px) {
-  .homeauth {
-    height: 101vh;
-  }
-  .contactus.container-fluid.bg-light {
-    height: 150vh;
-  }
-}
-@media only screen and (min-height: 720px) {
-  .homeauth {
-    height: 116vh;
-  }
-}
+// @media only screen and (min-height: 667px) {
+//   .contactus.container-fluid.bg-light {
+//     // height: 160vh;
+//   }
+// }
+// @media only screen and (min-height: 720px) {
+//   .homeauth {
+//     // height: 101vh;
+//   }
+//   .contactus.container-fluid.bg-light {
+//     // height: 150vh;
+//   }
+// }
+// @media only screen and (min-height: 720px) {
+//   .homeauth {
+//     // height: 116vh;
+//   }
+// }
 //MD 768
 @media only screen and (min-width: $md) {
   //navigation
@@ -375,12 +397,13 @@
     background-position: right;
     background-size: 380px;
     &__textbox {
-      max-width: 435px;
+      max-width: 350px;
     }
   }
 
   //homeauth
   .homeauth {
+    padding-bottom: 110px;
     &__colauthor {
       display: flex;
       align-items: center;
@@ -420,9 +443,16 @@
 
   //Contact
   .contactus.container-fluid.bg-light {
-    height: 105vh;
+    // height: 105vh;
     padding-top: 70px;
   }
+  .contactus.container-fluid.bg-light .form.container-fluid {
+    margin-top: 25px;
+  }
+  .col-lg-6.col-md-6.col-12 {
+    margin-bottom: 10px;
+  }
+  //Contact
 
   //footer
   .footer {
@@ -449,30 +479,33 @@
       margin-top: 20px;
     }
   }
+  span.navbar-brand {
+    display: inline;
+  }
 }
 
-@media only screen and (min-height: 844px) {
-  .homeauth {
-    height: 100vh;
-  }
-  .Authorbook {
-    height: 75vh;
-  }
-  .contactus.container-fluid.bg-light {
-    height: 125vh;
-  }
-}
-@media only screen and (min-height: 896px) {
-  .homeauth {
-    height: 90vh;
-  }
-  .Authorbook {
-    height: 68vh;
-  }
-  .contactus.container-fluid.bg-light {
-    height: 116vh;
-  }
-}
+// @media only screen and (min-height: 844px) {
+//   .homeauth {
+//     // height: 100vh;
+//   }
+//   .Authorbook {
+//     // height: 75vh;
+//   }
+//   .contactus.container-fluid.bg-light {
+//     // height: 125vh;
+//   }
+// }
+// @media only screen and (min-height: 896px) {
+//   .homeauth {
+//     // height: 90vh;
+//   }
+//   .Authorbook {
+//     // height: 68vh;
+//   }
+//   .contactus.container-fluid.bg-light {
+//     // height: 116vh;
+//   }
+// }
 
 @media only screen and (min-width: 795px) and (max-width: 991px) {
   .main {
@@ -499,7 +532,7 @@
     background-size: 590px;
 
     &__textbox {
-      margin-top: 60px;
+      padding-top: 70px;
       max-width: 450px;
       text-align: start;
       .featured {
@@ -516,6 +549,8 @@
   }
   //homeauth
   .homeauth {
+    padding-bottom: 140px;
+    padding-top: 140px;
     text-align: start;
     img.homeauth__authorimg {
       height: 270px;
@@ -578,28 +613,28 @@
     }
   }
 }
-@media only screen and (min-height: 1024px) {
-  // .homeauth {
-  //   height: 60vh;
-  // }
-  .Authorbook {
-    height: 60vh;
-  }
-  .contactus.container-fluid.bg-light {
-    height: 70vh;
-  }
-}
-@media only screen and (min-height: 1180px) {
-  .homeauth {
-    height: 55vh;
-  }
-  .Authorbook {
-    height: 50vh;
-  }
-  .contactus.container-fluid.bg-light {
-    height: 60vh;
-  }
-}
+// @media only screen and (min-height: 1024px) {
+//   // .homeauth {
+//   //   height: 60vh;
+//   // }
+//   .Authorbook {
+//     // height: 60vh;
+//   }
+//   .contactus.container-fluid.bg-light {
+//     // height: 70vh;
+//   }
+// }
+// @media only screen and (min-height: 1180px) {
+//   .homeauth {
+//     // height: 55vh;
+//   }
+//   .Authorbook {
+//     // height: 50vh;
+//   }
+//   .contactus.container-fluid.bg-light {
+//     // height: 60vh;
+//   }
+// }
 
 //xl 1200
 @media only screen and (min-width: $xl) {
@@ -619,7 +654,7 @@
     //   background-attachment: ;
 
     &__textbox {
-      margin-top: 60px;
+      padding-top: 80px;
       max-width: 500px;
       text-align: start;
       .featured {
@@ -669,7 +704,9 @@
     height: 29px;
   }
   //Homeauth
-
+  .homeauth {
+    height: 100vh;
+  }
   .homeauth p.authordesc {
     font-size: 17px;
     line-height: 30px;
@@ -686,14 +723,14 @@
   }
 }
 @media only screen and (min-height: 1368px) {
-  .homeauth {
-    height: 50vh;
-  }
-  .Authorbook {
-    height: 45vh;
-  }
+  // .homeauth {
+  //   // height: 50vh;
+  // }
+  // .Authorbook {
+  //   // height: 45vh;
+  // }
   .contactus.container-fluid.bg-light {
-    height: 70vh;
+    // height: 70vh;
     padding-top: 0;
   }
 }

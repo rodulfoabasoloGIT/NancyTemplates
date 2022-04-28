@@ -28,21 +28,24 @@ const Book = () => {
             </p>
             <div className="store container-fluid">
               {/* <h3>Book Available in</h3> */}
-              <h2 className="headings">Ebook</h2>
 
-              <Link
-                to="https://www.amazon.com/Little-Red-House-Nancy-Armstrong-ebook/dp/B08Q6HWZWQ/ref=sr_1_1?crid=2Q3QYE4YSJ1XC&keywords=little+red+house+nancy+armstrong&qid=1650529582&sprefix=little+red+house+nancy+armstrong%2Caps%2C319&sr=8-1"
-                target="_blank"
-              >
-                <img className="logos" src={amazon} />
-              </Link>
+              <div className="container ebook">
+                <h2 className="headings">Ebook</h2>
+                <Link
+                  to="https://www.amazon.com/Little-Red-House-Nancy-Armstrong-ebook/dp/B08Q6HWZWQ/ref=sr_1_1?crid=2Q3QYE4YSJ1XC&keywords=little+red+house+nancy+armstrong&qid=1650529582&sprefix=little+red+house+nancy+armstrong%2Caps%2C319&sr=8-1"
+                  target="_blank"
+                >
+                  <img className="logos" src={amazon} />
+                </Link>
 
-              <Link
-                to="https://www.barnesandnoble.com/w/the-little-red-house-nancy-armstrong/1138446333?ean=9781648952975"
-                target="_blank"
-              >
-                <img className="logos" src={barnes} />
-              </Link>
+                <Link
+                  to="https://www.barnesandnoble.com/w/the-little-red-house-nancy-armstrong/1138446333?ean=9781648952975"
+                  target="_blank"
+                >
+                  <img className="logos" src={barnes} />
+                </Link>
+              </div>
+              {/* line */}
               <h2 className="headings">Paperback</h2>
               <Link
                 to="https://www.amazon.com/Little-Red-House-Nancy-Armstrong/dp/1648952968/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1614719041&sr=8-1"

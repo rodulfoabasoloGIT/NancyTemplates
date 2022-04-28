@@ -144,6 +144,18 @@ const Navigation = () => {
           </Navbar.Offcanvas>
 
           <Nav className="d-none d-lg-flex d-xl-flex">
+            {/* <Link className="links" to="/">
+              Home
+            </Link>
+            <Link className="links" to="#author">
+              About the Author
+            </Link>
+            <Link className="links" to="#book">
+              About the Book
+            </Link>
+            <Link className="links" to="#contact">
+              Contact
+            </Link> */}
             <Nav.Link className="links" href="#home">
               Home
             </Nav.Link>
